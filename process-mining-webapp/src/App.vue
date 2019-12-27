@@ -19,6 +19,8 @@
 }
 
 #nav {
+  background-color: rgb(53, 51, 51);
+  box-shadow: 0px 5px 10px 0px black;
   padding: 30px;
   color: snow;
   a {
@@ -32,6 +34,6 @@
 }
 
 html {
-  background-color: #332E30 !important;
+  background-color: rgb(122, 122, 122) !important;
 }
 </style>
