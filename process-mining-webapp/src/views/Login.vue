@@ -34,6 +34,7 @@ export default {
 
 <style lang="sass" scoped>
 $break-small: 600px;
+$loading-background: rgba(255,255,255,0.7) !important;
 p
     color: snow;
     margin-left: 3%;
