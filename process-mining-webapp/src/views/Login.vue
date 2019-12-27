@@ -1,5 +1,5 @@
 <template>
-    <b-notification class="login">
+    <b-notification class="login" :closable="false">
         <div class="login-controls">
             <loginForm />
         </div>
@@ -21,6 +21,11 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+.login
+    width: 40vw;
+    height: 30vh;
+    margin-left: 30vw;
+    padding: 3%
 .login-loading
     z-index: 29;
     position: relative;
