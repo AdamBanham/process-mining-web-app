@@ -21,11 +21,15 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+$break-small: 600px;
 .login
-    width: 40vw;
-    height: 30vh;
-    margin-left: 30vw;
+    max-width: 50vw;
+    max-height: 30vh;
+    margin-left: 25vw;
     padding: 3%
+    @media screen and (max-width: $break-small)
+        max-width: 80vw;
+        margin-left: 10vw;
 .login-loading
     z-index: 29;
     position: relative;
