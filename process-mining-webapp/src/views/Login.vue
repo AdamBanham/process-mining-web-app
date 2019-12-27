@@ -4,7 +4,19 @@
             <loginForm />
         </div>
         <div class="login-loading">
-            <b-loading :active="true" :is-full-page="true" class="login-loading"></b-loading>
+            <b-loading :active="true" :is-full-page="true" class="login-loading">
+                    <p>
+                    <b-icon
+                        pack="fas"
+                        icon="sync-alt"
+                        size="is-large"
+                        custom-class="fa-spin">
+                    </b-icon>
+                    </p>
+                    <p>
+                    Please login to continue
+                    </p>
+            </b-loading>
         </div>
     </b-notification>
 </template>
@@ -22,7 +34,11 @@ export default {
 
 <style lang="sass" scoped>
 $break-small: 600px;
+p
+    color: snow;
+    margin-left: 3%;
 .login
+    margin-top: 5vh;
     max-width: 50vw;
     max-height: 30vh;
     margin-left: 25vw;
