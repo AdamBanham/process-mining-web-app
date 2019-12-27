@@ -20,14 +20,18 @@
 
 #nav {
   padding: 30px;
-
+  color: snow;
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: snow;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #526AC0;
     }
   }
+}
+
+html {
+  background-color: #332E30 !important;
 }
 </style>
