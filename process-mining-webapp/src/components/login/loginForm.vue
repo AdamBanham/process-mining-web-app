@@ -21,14 +21,23 @@ export default {
             password : null,
             username : null,
         }
+    },
+    methods : {
+        login: function() {
+
+        }
     }
 }
 </script>
 
 <style lang="sass" scoped>
+.login-form
+    z-index: 30;
+    position: relative;
 .login-button
     width: 150px;
 .login-field
     margin-left: 3%;
     margin-right: 3%;
+
 </style>
